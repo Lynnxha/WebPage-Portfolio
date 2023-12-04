@@ -18,7 +18,7 @@ const socialLinks = [
   {
     name: Strings.linkedIn,
     url: Strings.linkedInLink,
-    icon: <FontAwesomeIcon icon={faLinkedin} size="1px" />,
+    icon: <FontAwesomeIcon icon={faLinkedin} />,
     text: Strings.linkedInUsername,
   },
   {

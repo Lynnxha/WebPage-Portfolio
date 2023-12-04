@@ -22,7 +22,7 @@ const HomeSection1 = ({ current, setCurrent }) => {
   const onHandleClickTalkBtn = () => {
     if (typeof window === "undefined") return;
 
-    window.open(Strings.telegramLink, "_blank");
+    window.open(Strings.instagramLink, "_blank");
   };
 
   useEffect(() => {

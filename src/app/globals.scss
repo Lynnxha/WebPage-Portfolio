@@ -896,4 +896,20 @@ h6 {
   border: 2px solid var(--whiteColor);
 }
 
+.loader {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(#766DF4 0 0) bottom/100% 0% no-repeat #E4E4ED;
+  -webkit-mask: 
+    radial-gradient(circle at 60% 65%, #000 62%, #0000 65%) top left, 
+    radial-gradient(circle at 40% 65%, #000 62%, #0000 65%) top right, 
+    linear-gradient(to bottom left, #000 42%,#0000 43%) bottom left , 
+    linear-gradient(to bottom right,#000 42%,#0000 43%) bottom right;
+  -webkit-mask-size: 50% 50%;
+  -webkit-mask-repeat: no-repeat;
+  animation: p9 4s infinite linear;
+}
 
+@keyframes p9 {
+    90%,100% {background-size:100% 100%}
+}
