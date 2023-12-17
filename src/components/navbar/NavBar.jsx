@@ -88,14 +88,14 @@ const NavBar = ({ current }) => {
             className="w-fit h-fit text-2xl lg:text-3xl font-bold text-white flex flex-row items-center"
           >
             <Image
-              src="/icon.png"
+              src="/icons/l-quote.webp"
               alt="profile"
               width={80}
               height={80}
               sizes="100%"
               priority
               placeholder="blur"
-              blurDataURL="/icon.png"
+              blurDataURL="/icons/l-quote.webp"
               className="w-8 lg:w-10 h-auto mr-1"
             />
             Kibieptr
